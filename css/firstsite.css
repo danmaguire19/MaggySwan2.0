@@ -1,0 +1,223 @@
+
+body{
+	background-color: lightgrey;
+}
+
+
+.navBar {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:#333;
+	position:fixed;
+	position:sticky;
+	top:0px;
+	width: 100%;
+	font: normal 16px trebuchet MS;
+
+	line-height: 1.6em;
+	margin:0;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+.heading {
+	border-block-width: 85%;
+	background-image: url("../css/images/heading.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	position:relative;
+	background-position: 200%;
+	width:80%;
+	text-align: center;
+	text-shadow: 5px 7px 7px whitesmoke;
+}
+
+
+
+.heading {
+	font-family: fantasy;
+	font-size: 175%;
+	font-variant-position: center;
+	font-stretch: expanded;
+	position: center;
+	width:90%;
+	height: 200px;
+	margin:auto;
+	border:10px grey;
+}
+
+.heading h1 {
+	font-variant-position: relative;
+	position:absolute;
+	position:center;
+}
+
+.opener p {
+	padding:20px;
+	margin:auto;
+	width:60%;
+	position:relative;
+	position:center
+	font-family: sans-serif;
+	font-size: 100%;
+	font
+	background-color: dimgrey;
+	font: normal 16px trebuchet MS;
+	line-height: 1.6em;
+	margin:0;
+	padding:10px;
+	margin:10%;
+	border-radius: 15px;
+
+	
+	
+	
+}
+
+.myForm input[type="text"], 
+
+.myForm input[type="email"]{
+		padding:8px;
+	width:80%;
+}
+
+.myForm textarea{
+	padding:8px;
+	width:80%;
+}
+
+.myForm {
+	padding:8px;
+	width:80%;
+	font: normal 16px trebuchet MS;
+
+	line-height: 1.6em;
+	margin:0;
+}
+
+.myForm label{
+	display:block;
+}
+
+.myForm{
+	paddding:20px;
+
+}
+
+.myForm .form-group{
+	padding-bottom:15px;
+}
+
+.myForm input[type="submit"]{
+	background-color:#333;
+	color:#fff;
+	border: none;
+}
+
+.enter {
+	font: normal 16px trebuchet MS;
+	line-height: 1.6em;
+}
+
+.myForm label option {
+	padding:8px;
+	width:80%;
+}
+
+.button {
+	background-color: red;
+	color: red;
+	padding:15px 20px;
+	font-size: 100%;
+}
+
+.button:hover {
+	background-color: #111;
+	colour: white;
+}
+
+.button:hover{
+	background-color: #111;
+	color:white;
+}
+
+.photoTitle {
+	font: normal red 16px trebuchet MS;
+	color:black;
+	font-weight: bold;
+	font-size: 150%;
+	line-height: 1.6em;
+	margin:0;
+	border:1px #ccc solid;
+	padding:10px;
+	margin:10%;
+	border-radius: 15px;
+	background-image: url("../css/images/alpaca.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	position:relative;
+	text-align: center;
+}
+
+.dateNightTitle {
+	font-family:sans-serif;
+	text-align: auto;
+}
+
+.datePhotos {
+  position: relative;
+  width: 50%;
+  border: solid black;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.datePhotos:hover .overlay {
+bottom: 0;
+  height: 100%;
+
+}
+
+.datePhotos .text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

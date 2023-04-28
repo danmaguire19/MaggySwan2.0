@@ -1,0 +1,74 @@
+body {
+	background-color: lightgrey;
+
+}
+
+h1 {
+	color: white;
+	text-shadow: darkred 5px 5px 5px;
+	text-align: center;
+	margin:auto;
+	border: solid goldenrod;
+	background-image: url(../images/title.jpg);
+	background-position: 100%;
+	backgound-size: cover;
+	padding:10px;
+	margin:10%;
+	font-size: 400%;
+	border-radius: 15px;
+	background-size:cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+
+body {margin:25px;}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+
+
+
+
+
+div.polaroid {
+  border: 1px solid #ccc;
+}
+
+div.polaroid:hover {
+  border: 1px solid #777;
+}
+
+div.polaroid img {
+  width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .polaroid {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .polaroid {
+    width: 100%;
+  }
+}
+
+
+
+.polaroid p {
+	font-family: fantasy;
+	}
